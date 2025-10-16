@@ -1,0 +1,114 @@
+.information {
+    width: 600px;
+    max-width: 90vw;
+    height: auto;
+    max-height: 85vh;
+    overflow-y: auto;
+    background-color: #313237;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    border-radius: 12px;
+    z-index: 9999;
+
+}
+
+.information h1 {
+    color: #73c6ce;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 24px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+.information p {
+    text-align: center;
+    font-size: 18px;
+    color: lightgray;
+    font-weight: 500;
+    margin: 0;
+}
+
+.icon {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.icon:hover {
+    color: #ff6b6b;
+}
+
+@media screen and (max-width: 515px) {
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .information h1 {
+        font-size: 24px;
+    }
+
+    .information h2 {
+        font-size: 20px;
+    }
+
+    .information p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .information h1 {
+        font-size: 22px;
+    }
+
+    .information h2 {
+        font-size: 18px;
+    }
+
+    .information p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .information h1 {
+        font-size: 20px;
+    }
+
+    .information h2 {
+        font-size: 16px;
+    }
+
+    .information p {
+        font-size: 14px;
+    }
+}

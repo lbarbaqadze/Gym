@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    padding: 12px 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.3px solid rgb(107, 104, 104);
+}
+.componentOne{
+    display: flex;
+    gap: 10px;
+}
+.componentOne p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family:'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 770px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}
+@media screen and (max-width: 940px){
+    .container{
+        padding: 12px 70px;
+    }
+}
+@media screen and (max-width: 473px){
+    .container{
+        padding: 12px;
+    }
+}

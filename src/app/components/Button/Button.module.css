@@ -1,0 +1,37 @@
+.buttonOne {
+  position: relative;
+  overflow: hidden;
+  width: 14em;
+  padding: 15px;
+  background-color: #73c6ce;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.buttonOne::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: top 0.4s ease;
+  z-index: 0;
+}
+.buttonOne:hover::before {
+  top: 0;
+}
+.buttonOne span {
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+.buttonOne:hover span {
+  color: black;
+}

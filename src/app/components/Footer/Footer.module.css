@@ -1,0 +1,20 @@
+.footer{
+    width: 100%;
+    background-color: #121213;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+.footer h6{
+    color: lightgray;
+    font-weight: lighter;
+    cursor: pointer;
+    text-align: center;
+}
+@media screen and (max-width: 509px){
+    .footer{
+        height: 75px;
+    }
+}

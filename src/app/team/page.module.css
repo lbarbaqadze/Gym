@@ -1,0 +1,154 @@
+.containerOne {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.containerOne h1 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.componentOne {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    row-gap: 40px;
+}
+
+.card {
+    width: 270px;
+    height: 330px;
+}
+
+.card img:hover {
+    filter: brightness(45%);
+}
+
+.card img {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 8px;
+}
+
+.name p {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.p1 {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.9;
+    color: lightgray;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #73c6ce;
+    transition: 0.3s ease;
+}
+
+.p2:hover {
+    color: rgb(240, 235, 235);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 8px;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+}
+
+.containerTwo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px;
+}
+
+.containerTwo h1 {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: clamp(30px, 3vw, 40px);
+}
+
+.containerTwo h1 span {
+    color: #73c6ce;
+}
+
+.containerTwo p {
+    color: rgb(193, 190, 190);
+    color: italic;
+    text-align: center;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .containerTwo p {
+        width: 80%;
+    }
+}
+
+.componentTwo {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.componentTwo .cardOne {
+    cursor: pointer;
+    width: 200px;
+    height: 150px;
+}
+
+.componentTwo .cardOne img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 410px) {
+    .componentTwo .cardOne {
+        width: 150px;
+        height: 120px;
+    }
+
+    .containerTwo h1 {
+        text-align: center;
+        font-size: 26px;
+        width: 80%;
+    }
+}
