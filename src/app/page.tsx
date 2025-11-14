@@ -93,7 +93,7 @@ export default function Home() {
                         <Button title="Read More" link="/about" style={{ width: "10em", fontSize: "17px", fontWeight: "600" }} />
                     </div>
                     <div className={styles.img}>
-                        <img src="/Gym/images/crossfit6.png" alt="" />
+                        <img src="/images/crossfit6.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@ export default function Home() {
                     Need an extra push? They are ready!</p>
                 <div className={styles.componentFour}>
                     <div className={styles.cardTwo}>
-                        <img src="/Gym/images/trainer2.jpg" alt="" className={styles.img1} />
+                        <img src="/images/trainer2.jpg" alt="" className={styles.img1} />
                         <h4>Domenic Snyder</h4>
                         <p>Body Builder Trainer</p>
                         <div className={styles.social}>
@@ -180,7 +180,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={styles.cardTwo}>
-                        <img src="/Gym/images/trainer3.jpg" alt="" className={styles.img1} />
+                        <img src="/images/trainer3.jpg" alt="" className={styles.img1} />
                         <h4>Virgil Cook</h4>
                         <p>Body Builer Trainer</p>
                         <div className={styles.social}>
@@ -190,7 +190,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={styles.cardTwo}>
-                        <img src="/Gym/images/trainer4.png" alt="" className={styles.img1} />
+                        <img src="/images/trainer4.png" alt="" className={styles.img1} />
                         <h4>Mate Adamia</h4>
                         <p>Personal Trainer</p>
                         <div className={styles.social}>
@@ -202,7 +202,7 @@ export default function Home() {
                 </div>
             </div>
             <div className={styles.containerFive}>
-                <img src="/Gym/images/profile.jpg" alt="" />
+                <img src="/images/profile.jpg" alt="" />
                 <h3>Jack Williams</h3>
                 <h6>Body Builder Trainer</h6>
                 <p>Great atmosphere and super helpful coaches! I used to go to the gym and do

@@ -17,13 +17,13 @@ export default function Team() {
 
             <Header title="Meet Our Professional" title2="Team" style={{ textAlign: "center" }}
 
-                bgImage={{ backgroundImage: "linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 5, 0.7)), url('/Gym/images/background3.jpg')" }} />
+                bgImage={{ backgroundImage: "linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 5, 0.7)), url('/images/background3.jpg')" }} />
 
             <div className={styles.containerOne}>
                 <h1>Medical Speacialist</h1>
                 <div className={styles.componentOne}>
                     <div className={styles.card}>
-                        <img src="/Gym/images/team-images/img1.png" alt="" />
+                        <img src="/images/team-images/img1.png" alt="" />
                         <div className={styles.name}>
                             <p className={styles.p1}>COACH</p>
                             <p className={styles.p2}>Dominic Snyder</p>
@@ -34,7 +34,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <img src="/Gym/images/team-images/img2.png" alt="" />
+                        <img src="/images/team-images/img2.png" alt="" />
                         <div className={styles.name}>
                             <p className={styles.p1}>YOGA COACH</p>
                             <p className={styles.p2}>Virgil Cook</p>
@@ -45,7 +45,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <img src="/Gym/images/team-images/img3.png" alt="" />
+                        <img src="/images/team-images/img3.png" alt="" />
                         <div className={styles.name}>
                             <p className={styles.p1}>OWNED/HEAD COACH</p>
                             <p className={styles.p2}>Julie Ayokee</p>
@@ -56,7 +56,7 @@ export default function Team() {
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <img src="/Gym/images/team-images/img4.png" alt="" />
+                        <img src="/images/team-images/img4.png" alt="" />
                         <div className={styles.name}>
                             <p className={styles.p1}>MEDICAL COACH</p>
                             <p className={styles.p2}>Brenda Flores</p>
@@ -76,29 +76,29 @@ export default function Team() {
                     and keeps on maintaining a successful cooperation between the two bodies.</p>
                 <div className={styles.componentTwo}>
                     <div className={styles.cardOne}>
-                        <img src="/Gym/images/team-images/cert1.png" alt="" />
+                        <img src="/images/team-images/cert1.png" alt="" />
                     </div>
                     <div className={styles.cardOne}>
-                        <img src="/Gym/images/team-images/cert2.png" alt="" />
+                        <img src="/images/team-images/cert2.png" alt="" />
                     </div>
                     <div className={styles.cardOne}>
-                        <img src="/Gym/images/team-images/cert3.png" alt="" />
+                        <img src="/images/team-images/cert3.png" alt="" />
                     </div>
                     <div className={styles.cardOne}>
-                        <img src="/Gym/images/team-images/cert4.png" alt="" />
+                        <img src="/images/team-images/cert4.png" alt="" />
                     </div>
                     <div className={styles.cardOne}>
-                        <img src="/Gym/images/team-images/cert5.png" alt="" />
+                        <img src="/images/team-images/cert5.png" alt="" />
                     </div>
                     <div className={styles.cardOne}>
-                        <img src="/Gym/images/team-images/cert6.png" alt="" />
+                        <img src="/images/team-images/cert6.png" alt="" />
                     </div>
                 </div>
             </div>
 
             <Footer2 title1="Encompassing All Accessible Exclusive Medical Treatment"
                 title2="We offer extensive medical procedures to outbound and inbound patients."
-                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 5, 0.7)), url('/Gym/images/background4.jpg')" }} />
+                style={{ backgroundImage: "linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 5, 0.7)), url('/images/background4.jpg')" }} />
 
             <Footer />
 

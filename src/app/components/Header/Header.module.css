@@ -3,7 +3,7 @@
     height: 600px;
     background-image: linear-gradient(rgba(0, 3, 11, 0.7),
             rgba(0, 3, 11, 0.7)),
-        url("/Gym/images/about-images/background1.jpg");
+        url("/images/about-images/background1.jpg");
     background-position: center;
     background-size: cover;
     display: flex;

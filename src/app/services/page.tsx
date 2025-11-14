@@ -19,7 +19,7 @@ export default function Services() {
 
             <Header title="Services"
 
-                bgImage={{ backgroundImage: "linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 5, 0.7)), url('/Gym/images/background2.jpg')" }} />
+                bgImage={{ backgroundImage: "linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 5, 0.7)), url('/images/background2.jpg')" }} />
 
             <div className={styles.containerOne}>
                 <div className={styles.componentOne}>

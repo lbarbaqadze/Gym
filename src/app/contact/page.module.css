@@ -76,7 +76,7 @@
 .componentTwo {
     height: 100%;
     width: 55%;
-    background-image: url("/Gym/images/crossfit9.jpg");
+    background-image: url("/images/crossfit9.jpg");
     background-position: center;
     background-size: cover;
     display: flex;

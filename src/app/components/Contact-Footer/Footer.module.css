@@ -1,7 +1,7 @@
 .container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
       rgba(0, 3, 11, 0.7)),
-    url("/Gym/images/footer.jpg");
+    url("/images/footer.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;

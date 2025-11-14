@@ -96,7 +96,7 @@ export default function Contact() {
 
             <div className={styles.containerThree}>
                 <div className={styles.componentThree}>
-                    <img src="/Gym/images/map.png" alt="" />
+                    <img src="/images/map.png" alt="" />
                 </div>
                 <div className={styles.componentFour}>
                     <div>

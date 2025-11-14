@@ -44,7 +44,7 @@ export default function Slider() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/Gym/images/about-images/gym.jpg"
+              src="/images/about-images/gym.jpg"
               className={`d-block ${styles.sliderImg}`}
               alt="..."
             />
@@ -56,7 +56,7 @@ export default function Slider() {
 
           <div className="carousel-item">
             <img
-              src="/Gym/images/about-images/gym2.jpg"
+              src="/images/about-images/gym2.jpg"
               className={`d-block ${styles.sliderImg}`}
               alt="..."
             />
@@ -68,7 +68,7 @@ export default function Slider() {
 
           <div className="carousel-item">
             <img
-              src="/Gym/images/about-images/gym3.jpg"
+              src="/images/about-images/gym3.jpg"
               className={`d-block ${styles.sliderImg}`}
               alt="..."
             />
@@ -80,7 +80,7 @@ export default function Slider() {
 
           <div className="carousel-item">
             <img
-              src="/Gym/images/about-images/gym4.jpg"
+              src="/images/about-images/gym4.jpg"
               className={`d-block ${styles.sliderImg}`}
               alt="..."
             />
